@@ -1,0 +1,53 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.column {
+  margin: auto;
+  width: 28%;
+  padding: 10px;
+  border-style:double
+
+}
+
+.column2 {
+  text-align: left;
+  border-style: solid;
+  height: 200px;
+  width: 200px;
+}
+
+.column3 {
+  text-align: right;
+  float: right;
+
+}
+
+footer{
+  background: #111;
+  height: 100px;
+  width: 150vw;
+  font-family: "times new roman";
+  padding-top: 10px;
+  color: #ffff;
+  bottom: 0;
+  position: relative;
+}
+
+.footer-content{
+  text-align: center;
+}
+
+
