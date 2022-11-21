@@ -15,8 +15,11 @@ p {
 }
 
 .column {
-  text-align: center;
-  border: 5px solid #555;
+  margin: auto;
+  width: 28%;
+  padding: 10px;
+  border-style:double
+
 }
 
 .column2 {
@@ -24,19 +27,17 @@ p {
   border-style: solid;
   height: 200px;
   width: 200px;
-  float: left;
 }
 
 .column3 {
-  border-style: solid;
+  text-align: right;
   float: right;
-  top: 100px;
-  width: 200px;
+
 }
 
 footer{
   background: #111;
-  height: 75px;
+  height: 100px;
   width: 150vw;
   font-family: "times new roman";
   padding-top: 10px;
@@ -48,4 +49,5 @@ footer{
 .footer-content{
   text-align: center;
 }
+
 
