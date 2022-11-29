@@ -1,4 +1,4 @@
-const data = [
+let arr = [
   {
     "id": 1,
     "name": "Leanne Graham",
@@ -236,12 +236,12 @@ const data = [
 
 //create and print a list of website and email pairs (pair them in a string, array, or object
 
-const contact = [];
-console.log("web", contact);
+const conInfo = []
 
-data.forEach(curr => {
-  let website = curr.website;
+conInfo.forEach(curr => {
   let email = curr.email;
-  contact.push[website, email];
+  let website = curr.website;
+  conInfo.push([email, website]);
 });
-console.log("web", internet);
+console.log("comms", conInfo);
+
