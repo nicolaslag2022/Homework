@@ -1,4 +1,4 @@
-let arr = [
+const users = [
   {
     "id": 1,
     "name": "Leanne Graham",
@@ -236,12 +236,8 @@ let arr = [
 
 //create and print a list of website and email pairs (pair them in a string, array, or object
 
-const conInfo = []
+const phoneNumbers = users.map(user => user.phone);
+console.log(phoneNumbers);
 
-conInfo.forEach(curr => {
-  let email = curr.email;
-  let website = curr.website;
-  conInfo.push([email, website]);
-});
-console.log("comms", conInfo);
-
+const contactInfo = users.map(user => `${user.email}, ${user.website}`);
+console.log(contactInfo);

@@ -1,4 +1,4 @@
-let array = [
+let posts = [
   {
     "userId": 1,
     "id": 1,
@@ -603,7 +603,8 @@ let array = [
 
 //create a list of user 5's posts
 
-const
+const user5Posts = posts.filter(post => post.userId=== 5);
+console.log(user5Posts);
 
 
 
@@ -611,6 +612,15 @@ const
 
 
 //then, create a list of title and body pairs
+
+const user5TitleBody = user5Posts.map(post => {
+  return {
+    title: post.title,
+    body: post.body
+  };
+});
+
+console.log(user5TitleBody);
 
 
 

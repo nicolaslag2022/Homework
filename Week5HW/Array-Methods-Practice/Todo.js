@@ -1,4 +1,4 @@
-[
+const tasks= [
   {
     "userId": 1,
     "id": 1,
@@ -1200,3 +1200,15 @@
     "completed": false
   }
 ]
+
+let user9ToDo = tasks.filter(task => task.userId === 9);
+
+console.log(user9ToDo);
+
+const incompleteTask =user9ToDo.filter(task => task.completed === false).length;
+
+console.log(incompleteTask);
+
+
+
+

@@ -25,16 +25,24 @@ div {
 }
 
 #bio {
-  float: right;
+  /* width: auto; */
+  text-align: center;
 }
 #bio > li {
   padding: 2px;
   display: flex;
   flex-direction: column;
-  text-align: left;
+  /* text-align: left; */
 
 }
 
 #pro {
   width: auto;
+}
+
+@media(max-width: 375px) {
+  img{
+    width: 100%;
+  }
+
 }
